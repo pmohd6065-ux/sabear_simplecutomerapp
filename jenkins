@@ -8,14 +8,10 @@ pipeline {
         // Nexus configs
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "54.146.193.232:8081/"
-        NEXUS_REPOSITORY = "simple-hirirng-app"
-        NEXUS_CREDENTIAL_ID = "nexus_keygen"
-        // Slack configs
-        SLACK_CHANNEL = 'jenkins-integration'
-        SLACK_TEAM_DOMAIN = 'techiehorizon'
-        SLACK_CREDENTIAL_ID = 'slack-integration'
-        SLACK_USERNAME = 'Syed Abdur Razzaq-15'
+        NEXUS_URL = "51.20.78.63:8081/"
+        NEXUS_REPOSITORY = "feature"
+        NEXUS_CREDENTIAL_ID = "nexus"
+       
     }
     stages {
         stage("clone code") {
